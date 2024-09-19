@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Calistoga&family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.isi{
+    margin-top: 58px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.gambar{
+    width: 100%;
+}
+
+.isi-1{
+    position: absolute;
+    top: 12%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.judul{
+    color: white;
+    font-family: Arbutus Slab;
+    font-size: 64px;
+}
+
+.box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 548px;
+    height: 447px;
+    background-color: rgba(243, 247, 253, 0.8);
+    border-radius: 5px;
+}
+
+.isi-box{
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    top: 40px;
+    gap: 30px;
+}
+
+.boxnya{
+    border: 1px solid #777777;
+    width: 469px;
+    height: 48px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEEEEE;
+    padding: 5px;
+}
+
+.boxnya-beda{
+    width: 469px;
+    height: 77px;
+    padding: 5px;
+    background-color: #EEEEEE;
+    border: 1px solid #777777;
+    border-radius: 5px;
+}
+
+.nama{
+    display: flex;
+    font-family: Arbutus Slab;
+    font-size: 12px;
+    color: #796772;
+}
+
+.email{
+    font-family: Arbutus Slab;
+    font-size: 12px;
+    color: #796772;
+}
+
+.phone{
+    font-family: Arbutus Slab;
+    font-size: 12px;
+    color: #796772;
+}
+
+.message{
+    position: relative;
+    font-family: Arbutus Slab;
+    font-size: 12px;
+    color: #796772;
+}
+
+.input-field{
+    font-family: Arbutus Slab;
+    color: black;
+    font-size: 11px;
+    background-color: #EEEEEE;;
+    outline: none;
+    border: none;
+    width: 455px;
+}
+
+
+.textarea-message{
+    position: relative;
+    top: 8px;
+    color: black;
+    font-size: 11px;
+    background-color: #EEEEEE;;
+    outline: none;
+    border: none;
+    font-family: Arbutus Slab;
+    position: relative;
+    width: 455px;
+    height: 40px;
+    resize: none;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+.button-field{
+    width: 469px;
+    height: 37px;
+    color: #F6F1EF;
+    background-color: #777777;
+    border-radius: 5px;
+    border: none;
+    font-family: Arbutus Slab;
+    font-size: 14px;
+}
+
+.button-field:hover{
+    background-color: black;
+    color: #F6F1EF;
+}
+
+::placeholder{
+    color: #9B9B9B;
+}

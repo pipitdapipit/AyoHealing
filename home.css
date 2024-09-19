@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Calistoga&family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #1E3C89;
+}
+
+
+.content{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.content-img{
+    flex-basis: 100%;
+}
+
+.content-text{
+    flex-basis: 100%;
+    font-size: 2.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-text .text{
+    padding: 40px;
+    text-align: center;
+    color: white;
+}
+
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: 1px black solid;
+    justify-content: center;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.flex-item {
+    width: 200px;
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+.destination h1{
+    text-align: center;
+    color: #D9D9D9;
+}
+.store-image img{
+    width: 600px;
+    height: 400px;
+    border: black solid 5px;
+}
+.store-image{
+    flex-basis: 100%;
+    text-align: end;
+}
+.description{
+    font-size: 1em;
+    flex-basis: 100%;
+    padding: 20px 20px ;
+}
+.description h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 2.5em;
+}
+.description p{
+    padding: 20px 0;
+    font-size: 1.5em;
+}
+
+.store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: row;
+    background-color: #D9D9D9;
+}
+
+.item{
+    color: rgb(255, 255, 255);
+    margin: 3%;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.product{
+    color: #000000;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 5px 10px;
+    background-color: #D9D9D9;
+    border-radius: 1px;
+    gap: 5px;
+}
+
+.product img{
+    width: 100%;
+}
+.description{
+    text-align: center;
+}
+.product:hover{
+    box-shadow: 0 10px 20px #000000;
+    background-color: #adadad ;
+    transition: .3s;
+}
+.order button{
+    color: #ffffff;
+    padding: 15px 20px;
+    background-color: #1E3C89;
+}
+.order button:hover{
+    background-color: #896B1E;
+    transition: .3s;
+}
+.item .name{
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+}
+.item .price{
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

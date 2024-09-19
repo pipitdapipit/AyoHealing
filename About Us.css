@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=Calistoga&family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.logo{
+    font-family: Calistoga;
+    font-size: 30px;
+    color: white;
+}
+
+header ul{
+    display: flex;
+    position: relative;
+    left: 7%;
+    list-style: none;
+    width: 50%;
+    font-family: Inter;
+    font-size: 24px;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.about-us{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 58px;
+
+}
+
+.gambar{
+    width: 100%;
+}
+
+.judul{
+    display: flex;
+    font-size: 64px;
+    font-family: Calistoga;
+    color: white;
+    position: absolute;
+    top: 30px;
+}
+
+.isinya{
+    width: 1250px;
+    display: flex;
+    flex-direction: column;
+    gap: 240px;
+    position: absolute;
+}
+
+.isi-1{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.box{
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 150px;
+    height: 145px;
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.deskripsi{
+    width: 1181px;
+    left: 25px;
+    top: 10px;
+    position: relative;
+    font-size: 23px;
+    font-family: Arbutus Slab;
+    color: black;
+}
+
+.deskripsi-1{
+    width: 1181px;
+    left: 25px;
+    top: 25px;
+    position: relative;
+    font-size: 23px;
+    font-family: Arbutus Slab;
+    color: black;
+}
+
+.deskripsi-2{
+    display: flex;
+    justify-content: center;
+    width: 1181px;
+    left: 25px;
+    top: px;
+    position: relative;
+    font-size: 30px;
+    font-family: Calistoga;
+    color: white;
+}
+
